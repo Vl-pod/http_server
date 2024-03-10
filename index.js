@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const router = require('./routes/index');
 const errorHandler = require('./middleware/ErrorHandlingMiddleaware')
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 
 const app = express();
 app.use(cors());
